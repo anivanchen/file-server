@@ -1,0 +1,3 @@
+# server
+
+Run `npm start`.

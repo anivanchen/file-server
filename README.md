@@ -13,4 +13,4 @@ A simple file server with authentication built using the PERN (PostgreSQL, Expre
 
 - `cd client`
 - `npm start`
-- Go to http://localhost:8000/ to see the result. 
+- Go to http://localhost:3000/ to see the result. 
