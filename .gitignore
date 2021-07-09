@@ -107,3 +107,7 @@ dist
 Dockerfile
 Dockerfile.prod
 .dockerignore
+
+# Constants
+
+config.json

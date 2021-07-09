@@ -1,0 +1,47 @@
+// REST API Tests
+
+GET http://localhost:8000/dashboard
+
+###
+
+POST http://localhost:8000/dashboard
+Content-Type: application/json
+
+{
+    "file_title": "title",
+    "file_owner": "user",
+    "file_data": "   "
+}
+
+###
+
+GET http://localhost:8000/dashboard/1
+
+###
+
+DELETE http://localhost:8000/dashboard/1
+
+###
+
+PUT http://localhost:8000/dashboard/1
+Content-Type: application/json
+
+{
+    "file_title":"updatedTitle"
+}
+
+###
+
+// Authentification Tests
+
+POST http://localhost:8000/login
+Content-Type: application/json
+
+{
+    "username": "user",
+    "password": ""
+}
+
+###
+
+GET http://localhost:8000/logout
