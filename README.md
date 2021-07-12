@@ -2,7 +2,7 @@
 
 A simple file server with authentication built using the PERN (PostgreSQL, Express, React, Node.js) stack. 
 
-## Run the Project
+## Instructions
 
 ### In one terminal
 
