@@ -1,5 +1,7 @@
 # file-server
 
+![](https://img.shields.io/github/license/anivanchen/file-server?color=brightgreen&style=for-the-badge)
+
 A simple file server with authentication built using the PERN (PostgreSQL, Express, React, Node.js) stack. 
 
 ## Instructions
